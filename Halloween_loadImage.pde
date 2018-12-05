@@ -3,10 +3,9 @@ PImage img;
 void setup(){
   size(1000,500);
   img=loadImage("pumpkins.png");
-  image(img,0,0,1000,500);
 }
 void draw(){
-ellipse(0.0.0.0);
+ image(img,0,0,1000,500);
 }
   
 void  mouseDragged(){
