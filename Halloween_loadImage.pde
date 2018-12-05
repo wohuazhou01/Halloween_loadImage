@@ -6,8 +6,7 @@ void setup(){
 }
 void draw(){
  image(img,0,0,1000,500);
-}
-  
+}  
 void  mouseDragged(){
   blendMode(OVERLAY);
   noStroke();
